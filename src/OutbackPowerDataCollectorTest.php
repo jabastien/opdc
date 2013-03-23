@@ -24,7 +24,7 @@ class OutbackPowerDataCollectorTest extends PHPUnit_Framework_TestCase
 
     /**
      * @covers OutbackPowerDataCollector::collectData
-     * @expectedException OutbackPowerDataCollectorException
+     * @expectedException DataCollectorException
      */
     public function testCollectDataUrlIsNull()
     {

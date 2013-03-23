@@ -1,8 +1,11 @@
 <?php
+
+require_once "DataCollectorException.php";
+
 /**
  * OutbackPowerDataCollectorException Class
  */
-class OutbackPowerDataCollectorException extends Exception
+class OutbackPowerDataCollectorException extends DataCollectorException
 {
 
 }
